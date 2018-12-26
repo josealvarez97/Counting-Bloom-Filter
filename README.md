@@ -142,18 +142,13 @@ In order to produce $k$ hash functions, a *hash_functions_generator* is used. Th
 
 The function computes a polynomial whose coefficients are the ASCII integer values of the chars in the input string. In other words, given the polynomial
 
-$$p(x) = \sum_{i=0}^{n} a_ix^i = a_0+a_1x+a_2x^2+...+a_nx^n$$
+![](https://latex.codecogs.com/gif.latex?%24%24p%28x%29%20%3D%20%5Csum_%7Bi%3D0%7D%5E%7Bn%7D%20a_ix%5Ei%20%3D%20a_0&plus;a_1x&plus;a_2x%5E2&plus;...&plus;a_nx%5En%24%24)
 
 We define $a_i$ as the value corresponding to the $i_{th}$ char in the input string. $x$ is an arbitrary integer (for this implementation, $x=31$).
 
 However, in order to make this polynomial feasable to compute, a new sequence of constants is defined as follows:
 
-$$b_n:=a_n$$
-$$b_{n-1}:=a_{n-1}+b_{n}x_0$$
-$$.$$
-$$.$$
-$$.$$
-$$b_{0}:=a_{0}+b_{1}x_0$$
+![](https://latex.codecogs.com/gif.latex?%24%24b_n%3A%3Da_n%24%24%5C%5C%20%24%24b_%7Bn-1%7D%3A%3Da_%7Bn-1%7D&plus;b_%7Bn%7Dx_0%24%24%5C%5C%20%24%24.%24%24%5C%5C%20%24%24.%24%24%5C%5C%20%24%24.%24%24%5C%5C%20%24%24b_%7B0%7D%3A%3Da_%7B0%7D&plus;b_%7B1%7Dx_0%24%24)
 
 **Where $b_0$ is then the value of $p(x_0)$.** This function is inspired in the algorithm for computing polynomials known as [Hurner's Rule](https://en.wikipedia.org/wiki/Horner%27s_method).
 
