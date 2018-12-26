@@ -1,6 +1,6 @@
 # Counting Bloom Filter
 
-This is the file you may want to see: [Introduction and Implementation to a Counting Bloom Filter](https://github.com/josealvarez97/Counting-Bloom-Filter/tree/master/Introduction%20and%20Implementation%20to%20a%20Counting%20Bloom%20Filter)
+**This is the file you may want to see: [Counting-Bloom-Filter-Overview-and-Introduction.ipynb](https://github.com/josealvarez97/Counting-Bloom-Filter/tree/master/Introduction%20and%20Implementation%20to%20a%20Counting%20Bloom%20Filter)**
 
 
 But if you really, really, really don't want to open that beautiful file, here are some excerpts of what is in there (although I *highly recommend* taking a look at it, that's just better).
@@ -204,4 +204,4 @@ def hash_functions_generator(k):
 **Below is a demonstration that the different generated hash functions produce values that are *"disparate enough"* for $k=5$ and $input =$"$HelloWorld!$".** 
 
 
-## Other interesting and *relevant* stuff in the [actual main jupyter notebook](https://github.com/josealvarez97/Counting-Bloom-Filter/tree/master/Introduction%20and%20Implementation%20to%20a%20Counting%20Bloom%20Filter).
+## Other interesting and *relevant* stuff in the [actual main jupyter notebook (Counting-Bloom-Filter-Overview-and-Introduction.ipynb)](https://github.com/josealvarez97/Counting-Bloom-Filter/tree/master/Introduction%20and%20Implementation%20to%20a%20Counting%20Bloom%20Filter).
