@@ -200,3 +200,6 @@ def hash_functions_generator(k):
 
 
 ## Other interesting and *relevant* stuff in the [actual main jupyter notebook (Counting-Bloom-Filter-Overview-and-Introduction.ipynb)](https://github.com/josealvarez97/Counting-Bloom-Filter/tree/master/Introduction%20and%20Implementation%20to%20a%20Counting%20Bloom%20Filter).
+
+* It contains an introduction of my own and complexity analysis of bloom filters and, in particular, counting bloom filters.
+* It has a lot of graphs testing (and proving) empirical performance.
